@@ -23,7 +23,7 @@ SOLUZIONE:
             - Un'array (randomArrayEmails) dove pushare ogni indirizzo email generato;
 
 
-        - Inserire dentro Created():
+        - Inserire dentro Methods:
 
             - Funzione generateTenRandomEmails():
 
@@ -36,5 +36,10 @@ SOLUZIONE:
                     - Pushare dentro randomArrayEmails il contenuto di randomEmail;
 
 
-    - Usare la direttiva v-for(email in randomArrayEmails) dentro gli "li" per stampare a schermo le 10 email random.
+        - Richiamare dentro Created() la funzione generateTenRandomEmails();
+
+
+    - Usare la direttiva v-for(email in randomArrayEmails) dentro gli "li" per creare un list-item per ogni email random.
+
+    - Usare la direttiva v-text(email) dentro gli "li" per stampare a schermo le email random.
 
