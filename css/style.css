@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgba(126, 126, 126, 0.283);
+}
+
+ul{
+    padding: 200px 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+/* UTILITIES */
+    .container{
+        max-width: 1500px;
+        height: 100vh;
+        margin: 0 auto;
+    }
+
+    .row{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+/* FINE UTILITIES */
