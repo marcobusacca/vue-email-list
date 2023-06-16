@@ -26,7 +26,7 @@
             <!-- Row -->
             <div class="row">
                 <!-- Unordered List -->
-                <ul>
+                <ul v-if="randomArrayEmails.length === 10">
                     <!-- List Item -->
                     <li v-for="email in randomArrayEmails" v-text="email"></li>
                 </ul>
