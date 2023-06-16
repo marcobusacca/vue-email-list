@@ -43,3 +43,5 @@ SOLUZIONE:
 
     - Usare la direttiva v-text(email) dentro gli "li" per stampare a schermo le email random.
 
+    - Usare la direttiva v-if sull'Unordered List (ul) per mostrarla a schermo, SOLO SE la lunghezza dell'array (randomArrayEmails) è UGUALE a 10. (ovvero SOLTANTO QUANDO sono state GENERATE e PUSHATE tutte le email random).
+
