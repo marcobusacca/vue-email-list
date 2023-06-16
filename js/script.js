@@ -9,6 +9,10 @@ createApp({
     data(){
         return{
             // VARIABILI VUE.JS
+
+            randomEmail         : '',
+
+            randomArrayEmails   : [],
         }
     },
     created() {
